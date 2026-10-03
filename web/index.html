@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Emlawtech | Escrow for freelance work on Stellar</title>
+    <meta
+      name="description"
+      content="Open-source escrow for freelance and service marketplaces, built for the Stellar network."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <p class="eyebrow">Open source &middot; Built for Stellar</p>
+      <h1>Get paid for the work. Pay for the work you get.</h1>
+      <p class="lead">
+        Emlawtech holds a client's payment in escrow, releases it when the work is approved, and
+        brings in an arbiter when the two sides disagree.
+      </p>
+      <a class="button" href="https://github.com/deslawson/Emlawtech">View on GitHub</a>
+    </header>
+
+    <main>
+      <section>
+        <h2>How it works</h2>
+        <ol class="steps">
+          <li><strong>Create</strong> an escrow naming the client, freelancer and arbiter.</li>
+          <li><strong>Fund</strong> it. The client locks the agreed amount.</li>
+          <li><strong>Deliver</strong> the work. The freelancer submits it for review.</li>
+          <li><strong>Release</strong> on approval, or automatically when the review window ends.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Project status</h2>
+        <p>
+          The escrow rules and a small HTTP API are working and tested. Settlement on the Stellar
+          network, wallet sign-in and a full web app are still on the roadmap, and contributions
+          are welcome.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>MIT licensed. Early development, not yet suitable for real funds.</p>
+    </footer>
+  </body>
+</html>
