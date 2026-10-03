@@ -1,0 +1,16 @@
+{
+  "name": "@emlawtech/backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "HTTP API for creating and managing escrows",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node dist/src/index.js",
+    "test": "node --test \"dist/test/**/*.test.js\""
+  },
+  "dependencies": {
+    "@emlawtech/escrow-core": "*"
+  }
+}
