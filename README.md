@@ -1,6 +1,6 @@
 # Emlawtech
 
-[![CI](https://github.com/deslawson/Emlawtech/actions/workflows/ci.yml/badge.svg)](https://github.com/deslawson/Emlawtech/actions/workflows/ci.yml)
+[![CI](https://github.com/Emlawtech-dev/Emlawtech/actions/workflows/ci.yml/badge.svg)](https://github.com/Emlawtech-dev/Emlawtech/actions/workflows/ci.yml)
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Node.js 22+](https://img.shields.io/badge/node-%3E%3D22-green.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue.svg)
@@ -43,7 +43,7 @@ with an arbiter available if the two sides disagree.
 ## Quick start
 
 ```bash
-git clone https://github.com/deslawson/Emlawtech.git
+git clone https://github.com/Emlawtech-dev/Emlawtech.git
 cd Emlawtech
 npm install
 npm test

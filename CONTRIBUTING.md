@@ -8,7 +8,7 @@ request looks like.
 You need Node.js 22 or newer and Git.
 
 ```bash
-git clone https://github.com/deslawson/Emlawtech.git
+git clone https://github.com/Emlawtech-dev/Emlawtech.git
 cd Emlawtech
 npm install
 npm test
